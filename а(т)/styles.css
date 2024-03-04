@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 80vw;
+    min-width: 80vw;
+    min-height: 100vh;
+}
+
+.table-layout {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.second-block {
+    background-color: orange;
+    height: 100vh;
+    width: 10vw;
+}
+
+.column-box {
+    width: 90vw;
+}
+
+.first-block {
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+}
+
+.fourth-block {
+    height: 80vh;
+    width: 100%;
+}
+
+.third-block {
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+}
+
+.second-block:hover, .first-block:hover, .third-block:hover, .fourth-block:hover {
+    background-color: crimson;
+}
