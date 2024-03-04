@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-block{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+
+.fifth-block{
+    background-color: orange;
+    height: 80vh;
+    width: 20vw;
+}
+
+.fourth-block{
+    width: 60vw;
+    height: 80vh;
+}
+
+.second-block{
+    background-color: orange;
+    height: 80vh;
+    width: 20vw;
+}
+
+.third-block{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+}
+
+
+.second-block:hover, .first-block:hover, .third-block:hover, .fourth-block:hover  {
+    background-color: crimson;
+} 

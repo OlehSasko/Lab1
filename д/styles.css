@@ -1,0 +1,92 @@
+h1,
+h2,
+h3,
+h4{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.first-block{
+    background-color: orange;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.white-btn{
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px;
+    margin-left: 75px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+.second-block{
+    background-color: blue;
+    width: 15vw;
+    height: 80vh;
+}
+
+.red-block{
+    background-color: red;
+    width: 60vw;
+    height: 15vh;
+    
+    border-radius: 20px;
+    margin: auto;
+}
+
+.container-sec{
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin: auto;
+}
+
+.third-block{
+    width: 30vw;
+    height: 50vh;
+}
+
+.fourth-block{
+    background-color: blue;
+    width: 30vw;
+    height: 50vh;
+    
+}
+
+.fifth-block{
+    background-color: orange;
+    width: 100vw;
+    height: 10vh;
+}
+
+.second-block:hover, .first-block:hover, .third-block:hover, .fourth-block:hover  {
+    background-color: crimson;
+} 
+

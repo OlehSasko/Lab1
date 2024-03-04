@@ -1,0 +1,60 @@
+*, 
+*::after, 
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    width: 80vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    margin: 0 auto;
+}
+
+.main{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    margin: 0 auto;
+}
+
+.first-block{
+    background-color: blue;
+    width: 80vw;
+    height: 10vh;
+}
+
+.fifth-block{
+    background-color: orange;
+    width: 10vw;
+    height: 80vh;
+}
+
+.fourth-block{
+    width: 60vw;
+}
+
+.second-block{
+    background-color: orange;
+    width: 10vw;
+    height: 80vh;
+}
+
+.third-block{
+    background-color: blue;
+    width: 80vw;
+    height: 10vh;
+}
+
+
+.second-block:hover, .first-block:hover, .third-block:hover, .fourth-block:hover  {
+    background-color: crimson;
+} 
